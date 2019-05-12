@@ -73,7 +73,7 @@ public class MainActivity extends Activity {
 		category.setAdapter(simpleAdapter);
 		
 		LinearLayout categoryLayout = (LinearLayout)findViewById(R.id.category_layout);
-		categoryLayout.addView(category);
+		categoryLayout.addView(category); //s
 		
 		// 箭头
 		final HorizontalScrollView categoryScrollView = (HorizontalScrollView)findViewById(R.id.category_scrollview);
